@@ -1,0 +1,807 @@
+{
+  "_schema": {
+    "version": 1,
+    "description": "F1 Circuit ID mappings cache",
+    "fields": {
+      "osm_id": "OpenStreetMap element ID (number or null)",
+      "osm_type": "Element type: relation or way",
+      "wikidata_id": "Wikidata Q-ID (e.g. Q173099)",
+      "search_method": "How found: manual/P402/wikidata_tag/osm_name",
+      "search_name": "Which name variant matched",
+      "verified_at": "Last verification timestamp",
+      "manual": "true = won't be auto-updated",
+      "comment": "Notes (auto-added for TODO items)",
+      "osm_version": "OSM element version (for update checking)"
+    }
+  },
+  "circuits": {
+    "Adelaide Street Circuit": {
+      "osm_id": 3121459,
+      "osm_type": "relation",
+      "wikidata_id": "Q83234",
+      "search_method": "wikidata_tag",
+      "search_name": "Adelaide Street Circuit",
+      "verified_at": "2026-01-12 15:35",
+      "manual": false,
+      "comment": "Also found: relation/280443 (via 'Australian Grand Prix', Q171288, score=185). Please verify manually.",
+      "osm_version": 18
+    },
+    "Ain-Diab Circuit": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q173217",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 15:38",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q173217)"
+    },
+    "Aintree Motor Racing Circuit": {
+      "osm_id": 121110221,
+      "osm_type": "way",
+      "wikidata_id": "Q12221467",
+      "search_method": "wikidata_tag",
+      "search_name": "Aintree Motor Racing Circuit",
+      "verified_at": "2026-01-12 15:38",
+      "manual": false,
+      "osm_version": 8
+    },
+    "Albert Park Circuit": {
+      "osm_id": 280443,
+      "osm_type": "relation",
+      "wikidata_id": "Q171288",
+      "search_method": "P402",
+      "search_name": "Albert Park Circuit",
+      "verified_at": "2026-01-12 15:39",
+      "manual": false,
+      "osm_version": 60
+    },
+    "Algarve International Circuit": {
+      "osm_id": 7509968,
+      "osm_type": "relation",
+      "wikidata_id": "Q789427",
+      "search_method": "wikidata_tag",
+      "search_name": "Algarve International Circuit",
+      "verified_at": "2026-01-12 15:39",
+      "manual": false,
+      "osm_version": 7
+    },
+    "Autódromo do Estoril": {
+      "osm_id": 11266675,
+      "osm_type": "relation",
+      "wikidata_id": "Q172890",
+      "search_method": "wikidata_tag",
+      "search_name": "Autódromo do Estoril",
+      "verified_at": "2026-01-12 15:39",
+      "manual": false,
+      "osm_version": 5
+    },
+    "Autódromo Hermanos Rodríguez": {
+      "osm_id": 16251935,
+      "osm_type": "relation",
+      "wikidata_id": "Q8109",
+      "search_method": "wikidata_tag",
+      "search_name": "Mexican Grand Prix",
+      "verified_at": "2026-01-12 15:40",
+      "manual": false,
+      "osm_version": 4
+    },
+    "Autódromo Internacional do Rio de Janeiro": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q7961",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 15:42",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q7961)"
+    },
+    "Autodromo Internazionale del Mugello": {
+      "osm_id": 8487163,
+      "osm_type": "relation",
+      "wikidata_id": "Q782455",
+      "search_method": "wikidata_tag",
+      "search_name": "Autodromo Internazionale del Mugello",
+      "verified_at": "2026-01-12 15:42",
+      "manual": false,
+      "osm_version": 11
+    },
+    "Autodromo Internazionale Enzo e Dino Ferrari": {
+      "osm_id": 13706843,
+      "osm_type": "relation",
+      "wikidata_id": "Q171313",
+      "search_method": "wikidata_tag",
+      "search_name": "Autodromo Internazionale Enzo e Dino Ferrari",
+      "verified_at": "2026-01-12 15:43",
+      "manual": false,
+      "osm_version": 31
+    },
+    "Autodromo José Carlos Pace": {
+      "osm_id": 6781071,
+      "osm_type": "relation",
+      "wikidata_id": "Q171387",
+      "search_method": "wikidata_tag",
+      "search_name": "Autodromo José Carlos Pace",
+      "verified_at": "2026-01-12 15:43",
+      "manual": false,
+      "comment": "Also found: relation/2560355 (via 'Autodromo José Carlos Pace', Q171387, score=-45). Please verify manually.",
+      "osm_version": 5
+    },
+    "Autodromo Nazionale di Monza": {
+      "osm_id": 284565,
+      "osm_type": "relation",
+      "wikidata_id": "Q171417",
+      "search_method": "wikidata_tag",
+      "search_name": "Autodromo Nazionale di Monza",
+      "verified_at": "2026-01-12 15:43",
+      "manual": false,
+      "osm_version": 33
+    },
+    "Autódromo Oscar y Juan Gálvez": {
+      "osm_id": 19224331,
+      "osm_type": "way",
+      "wikidata_id": "Q173116",
+      "search_method": "wikidata_tag",
+      "search_name": "Autódromo Oscar y Juan Gálvez",
+      "verified_at": "2026-01-12 15:43",
+      "manual": false,
+      "osm_version": 33
+    },
+    "AVUS": {
+      "osm_id": 1685448,
+      "osm_type": "relation",
+      "wikidata_id": "Q68174",
+      "search_method": "P402",
+      "search_name": "AVUS",
+      "verified_at": "2026-01-12 15:44",
+      "manual": false,
+      "comment": "Also found: way/4388956 (via 'AVUS', Q155810, score=0). Please verify manually.",
+      "osm_version": 8
+    },
+    "Bahrain International Circuit": {
+      "osm_id": 11987743,
+      "osm_type": "relation",
+      "wikidata_id": "Q171332",
+      "search_method": "wikidata_tag",
+      "search_name": "Bahrain International Circuit",
+      "verified_at": "2026-01-12 15:44",
+      "manual": false,
+      "osm_version": 4
+    },
+    "Baku City Circuit": {
+      "osm_id": 11266687,
+      "osm_type": "relation",
+      "wikidata_id": "Q17004958",
+      "search_method": "wikidata_tag",
+      "search_name": "Baku City Circuit",
+      "verified_at": "2026-01-12 15:44",
+      "manual": false,
+      "osm_version": 26
+    },
+    "Brands Hatch Circuit": {
+      "osm_id": 770743966,
+      "osm_type": "way",
+      "wikidata_id": "Q172880",
+      "search_method": "wikidata_tag",
+      "search_name": "Brands Hatch Circuit",
+      "verified_at": "2026-01-12 15:44",
+      "manual": false,
+      "osm_version": 5
+    },
+    "Buddh International Circuit": {
+      "osm_id": 2261609,
+      "osm_type": "relation",
+      "wikidata_id": "Q172906",
+      "search_method": "wikidata_tag",
+      "search_name": "Buddh International Circuit",
+      "verified_at": "2026-01-12 15:44",
+      "manual": false,
+      "osm_version": 4
+    },
+    "Bugatti Au Mans": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q7997",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 15:47",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q7997)"
+    },
+    "Caesars Palace Grand Prix Circuit": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q786639",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 15:49",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q786639)"
+    },
+    "Charade Circuit": {
+      "osm_id": 34405768,
+      "osm_type": "way",
+      "wikidata_id": "Q172879",
+      "search_method": "wikidata_tag",
+      "search_name": "Charade Circuit",
+      "verified_at": "2026-01-12 15:49",
+      "manual": false,
+      "osm_version": 15
+    },
+    "Circuit Bremgarten": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q172895",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 15:51",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q172895)"
+    },
+    "Circuit de Barcelona-Catalunya": {
+      "osm_id": 831804327,
+      "osm_type": "way",
+      "wikidata_id": "Q171404",
+      "search_method": "wikidata_tag",
+      "search_name": "Circuit de Barcelona-Catalunya",
+      "verified_at": "2026-01-12 15:52",
+      "manual": false,
+      "osm_version": 12
+    },
+    "Circuit de Monaco": {
+      "osm_id": 148194,
+      "osm_type": "relation",
+      "wikidata_id": "Q171400",
+      "search_method": "wikidata_tag",
+      "search_name": "Circuit de Monaco",
+      "verified_at": "2026-01-12 15:52",
+      "manual": false,
+      "osm_version": 59
+    },
+    "Circuit de Nevers Magny-Cours": {
+      "osm_id": 482336193,
+      "osm_type": "way",
+      "wikidata_id": "Q172876",
+      "search_method": "wikidata_tag",
+      "search_name": "Circuit de Nevers Magny-Cours",
+      "verified_at": "2026-01-12 15:52",
+      "manual": false,
+      "osm_version": 7
+    },
+    "Circuit de Pedralbes": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q172898",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 15:55",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q172898)"
+    },
+    "Circuit de Reims-Gueux": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q171574",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 15:58",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q171574)"
+    },
+    "Circuit de Spa-Francorchamps": {
+      "osm_id": 284560,
+      "osm_type": "relation",
+      "wikidata_id": "Q172851",
+      "search_method": "wikidata_tag",
+      "search_name": "Circuit de Spa-Francorchamps",
+      "verified_at": "2026-01-12 15:58",
+      "manual": false,
+      "osm_version": 23
+    },
+    "Circuit Dijon-Prenois": {
+      "osm_id": 14474019,
+      "osm_type": "relation",
+      "wikidata_id": "Q172888",
+      "search_method": "wikidata_tag",
+      "search_name": "Circuit Dijon-Prenois",
+      "verified_at": "2026-01-12 15:58",
+      "manual": false,
+      "osm_version": 3
+    },
+    "Circuit Gilles-Villeneuve": {
+      "osm_id": 284595,
+      "osm_type": "relation",
+      "wikidata_id": "Q172860",
+      "search_method": "P402",
+      "search_name": "Circuit Gilles-Villeneuve",
+      "verified_at": "2026-01-12 15:58",
+      "manual": false,
+      "osm_version": 19
+    },
+    "Circuit Mont-Tremblant": {
+      "osm_id": 176774725,
+      "osm_type": "way",
+      "wikidata_id": "Q172873",
+      "search_method": "wikidata_tag",
+      "search_name": "Circuit Mont-Tremblant",
+      "verified_at": "2026-01-12 15:59",
+      "manual": false,
+      "osm_version": 19
+    },
+    "Circuit of the Americas": {
+      "osm_id": 6537729,
+      "osm_type": "relation",
+      "wikidata_id": "Q59626",
+      "search_method": "wikidata_tag",
+      "search_name": "Circuit of the Americas",
+      "verified_at": "2026-01-12 15:59",
+      "manual": false,
+      "osm_version": 11
+    },
+    "Circuit Paul Ricard": {
+      "osm_id": 242942298,
+      "osm_type": "way",
+      "wikidata_id": "Q171424",
+      "search_method": "wikidata_tag",
+      "search_name": "Circuit Paul Ricard",
+      "verified_at": "2026-01-12 16:00",
+      "manual": false,
+      "osm_version": 15
+    },
+    "Circuit Zandvoort": {
+      "osm_id": 24626850,
+      "osm_type": "way",
+      "wikidata_id": "Q173083",
+      "search_method": "wikidata_tag",
+      "search_name": "Circuit Zandvoort",
+      "verified_at": "2026-01-12 16:00",
+      "manual": false,
+      "osm_version": 53
+    },
+    "Circuit Zolder": {
+      "osm_id": 6006460,
+      "osm_type": "relation",
+      "wikidata_id": "Q172868",
+      "search_method": "P402",
+      "search_name": "Circuit Zolder",
+      "verified_at": "2026-01-12 16:00",
+      "manual": false,
+      "osm_version": 5
+    },
+    "Circuito da Boavista": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q172874",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 16:03",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q172874)"
+    },
+    "Circuito de Monsanto": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q174062",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 16:06",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q174062)"
+    },
+    "Circuito Permanente de Jerez": {
+      "osm_id": 831985059,
+      "osm_type": "way",
+      "wikidata_id": "Q172884",
+      "search_method": "wikidata_tag",
+      "search_name": "Circuito Permanente de Jerez",
+      "verified_at": "2026-01-12 16:06",
+      "manual": false,
+      "osm_version": 4
+    },
+    "Circuito Permanente del Jarama": {
+      "osm_id": 28262288,
+      "osm_type": "way",
+      "wikidata_id": "Q172897",
+      "search_method": "wikidata_tag",
+      "search_name": "Circuito Permanente del Jarama",
+      "verified_at": "2026-01-12 16:07",
+      "manual": false,
+      "osm_version": 11
+    },
+    "Dallas Fair Park": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q16040264",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 16:09",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q16040264)"
+    },
+    "Detroit Street Circuit": {
+      "osm_id": 17665938,
+      "osm_type": "relation",
+      "wikidata_id": "Q9214",
+      "search_method": "wikidata_tag",
+      "search_name": "Detroit Grand Prix",
+      "verified_at": "2026-01-12 16:09",
+      "manual": false,
+      "osm_version": 3
+    },
+    "Donington Park": {
+      "osm_id": 662160198,
+      "osm_type": "way",
+      "wikidata_id": "Q173202",
+      "search_method": "wikidata_tag",
+      "search_name": "Donington Park",
+      "verified_at": "2026-01-12 16:09",
+      "manual": false,
+      "comment": "Also found: way/61094302 (via 'Donington Park', Q5296123, score=-60). Please verify manually.",
+      "osm_version": 9
+    },
+    "Fuji Speedway": {
+      "osm_id": 196330118,
+      "osm_type": "way",
+      "wikidata_id": "Q171399",
+      "search_method": "wikidata_tag",
+      "search_name": "Fuji Speedway",
+      "verified_at": "2026-01-12 16:10",
+      "manual": false,
+      "osm_version": 12
+    },
+    "Hockenheimring": {
+      "osm_id": 284588,
+      "osm_type": "relation",
+      "wikidata_id": "Q152408",
+      "search_method": "wikidata_tag",
+      "search_name": "Hockenheimring",
+      "verified_at": "2026-01-12 16:10",
+      "manual": false,
+      "osm_version": 7
+    },
+    "Hungaroring": {
+      "osm_id": 231328650,
+      "osm_type": "way",
+      "wikidata_id": "Q171356",
+      "search_method": "wikidata_tag",
+      "search_name": "Hungaroring",
+      "verified_at": "2026-01-12 16:11",
+      "manual": false,
+      "osm_version": 14
+    },
+    "Indianapolis Motor Speedway": {
+      "osm_id": 51315962,
+      "osm_type": "way",
+      "wikidata_id": "Q6023901",
+      "search_method": "wikidata_tag",
+      "search_name": "Indianapolis Motor Speedway",
+      "verified_at": "2026-01-12 16:11",
+      "manual": false,
+      "comment": "Also found: way/589668075 (via 'Indianapolis Motor Speedway', Q172732, score=-40). Please verify manually.",
+      "osm_version": 12
+    },
+    "Intercity Istanbul Park": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q9229",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 16:15",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q9229)"
+    },
+    "Jeddah Corniche Circuit": {
+      "osm_id": 1007989410,
+      "osm_type": "way",
+      "wikidata_id": "Q102141307",
+      "search_method": "wikidata_tag",
+      "search_name": "Jeddah Corniche Circuit",
+      "verified_at": "2026-01-12 16:15",
+      "manual": false,
+      "osm_version": 19
+    },
+    "Korea International Circuit": {
+      "osm_id": 234766734,
+      "osm_type": "way",
+      "wikidata_id": "Q171385",
+      "search_method": "wikidata_tag",
+      "search_name": "Korea International Circuit",
+      "verified_at": "2026-01-12 16:15",
+      "manual": false,
+      "osm_version": 16
+    },
+    "Kyalami Grand Prix Circuit": {
+      "osm_id": 825007865,
+      "osm_type": "way",
+      "wikidata_id": "Q171667",
+      "search_method": "wikidata_tag",
+      "search_name": "Kyalami Grand Prix Circuit",
+      "verified_at": "2026-01-12 16:16",
+      "manual": false,
+      "osm_version": 4
+    },
+    "Las Vegas Strip Circuit": {
+      "osm_id": 16696508,
+      "osm_type": "relation",
+      "wikidata_id": "Q113112116",
+      "search_method": "wikidata_tag",
+      "search_name": "Las Vegas Strip Circuit",
+      "verified_at": "2026-01-12 16:16",
+      "manual": false,
+      "osm_version": 18
+    },
+    "Long Beach Street Circuit": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q173889",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 16:20",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q173889)"
+    },
+    "Lusail International Circuit": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q108750321",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 16:23",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q108750321)"
+    },
+    "Madring": {
+      "osm_id": 18813472,
+      "osm_type": "relation",
+      "wikidata_id": "Q126193406",
+      "search_method": "P402",
+      "search_name": "Madring",
+      "verified_at": "2026-01-12 16:23",
+      "manual": false,
+      "osm_version": 5
+    },
+    "Marina Bay Street Circuit": {
+      "osm_id": 421263,
+      "osm_type": "relation",
+      "wikidata_id": "Q171390",
+      "search_method": "P402",
+      "search_name": "Marina Bay Street Circuit",
+      "verified_at": "2026-01-12 16:24",
+      "manual": false,
+      "osm_version": 105
+    },
+    "Miami International Autodrome": {
+      "osm_id": 1017340360,
+      "osm_type": "way",
+      "wikidata_id": "Q106544792",
+      "search_method": "wikidata_tag",
+      "search_name": "Miami International Autodrome",
+      "verified_at": "2026-01-12 16:24",
+      "manual": false,
+      "osm_version": 11
+    },
+    "Montjuïc circuit": {
+      "osm_id": 1147249,
+      "osm_type": "relation",
+      "wikidata_id": "Q172892",
+      "search_method": "P402",
+      "search_name": "Montjuïc circuit",
+      "verified_at": "2026-01-12 16:25",
+      "manual": false,
+      "osm_version": 30
+    },
+    "Mosport International Raceway": {
+      "osm_id": 808839795,
+      "osm_type": "way",
+      "wikidata_id": "Q171570",
+      "search_method": "wikidata_tag",
+      "search_name": "Mosport International Raceway",
+      "verified_at": "2026-01-12 16:25",
+      "manual": false,
+      "osm_version": 1
+    },
+    "Nivelles-Baulers": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q172878",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 16:28",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q172878)"
+    },
+    "Nürburgring": {
+      "osm_id": 368614733,
+      "osm_type": "way",
+      "wikidata_id": "Q152207",
+      "search_method": "wikidata_tag",
+      "search_name": "Nürburgring",
+      "verified_at": "2026-01-12 16:28",
+      "manual": false,
+      "osm_version": 12
+    },
+    "Pescara Circuit": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q172882",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 16:31",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q172882)"
+    },
+    "Phoenix Street Circuit": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q173368",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 16:34",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q173368)"
+    },
+    "Prince George Circuit": {
+      "osm_id": 2579523,
+      "osm_type": "relation",
+      "wikidata_id": "Q172865",
+      "search_method": "wikidata_tag",
+      "search_name": "Prince George Circuit",
+      "verified_at": "2026-01-12 16:34",
+      "manual": false,
+      "osm_version": 10
+    },
+    "Red Bull Ring": {
+      "osm_id": 822592396,
+      "osm_type": "way",
+      "wikidata_id": "Q171566",
+      "search_method": "wikidata_tag",
+      "search_name": "Red Bull Ring",
+      "verified_at": "2026-01-12 16:34",
+      "manual": false,
+      "osm_version": 2
+    },
+    "Riverside International Raceway": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q172871",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 16:37",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q172871)"
+    },
+    "Rouen-Les-Essarts": {
+      "osm_id": null,
+      "osm_type": null,
+      "wikidata_id": "Q108939662",
+      "search_method": null,
+      "search_name": null,
+      "verified_at": "2026-01-12 16:40",
+      "manual": true,
+      "comment": "TODO: verify OSM ID manually (check https://www.wikidata.org/wiki/Q108939662)"
+    },
+    "Scandinavian Raceway": {
+      "osm_id": 606419212,
+      "osm_type": "way",
+      "wikidata_id": "Q172894",
+      "search_method": "wikidata_tag",
+      "search_name": "Scandinavian Raceway",
+      "verified_at": "2026-01-12 16:39",
+      "manual": false,
+      "osm_version": 3
+    },
+    "Sebring Raceway": {
+      "osm_id": 7003292,
+      "osm_type": "relation",
+      "wikidata_id": "Q172883",
+      "search_method": "wikidata_tag",
+      "search_name": "Sebring Raceway",
+      "verified_at": "2026-01-12 16:40",
+      "manual": false,
+      "comment": "Also found: relation/18038750 (via 'Sebring Raceway', Q172883, score=-45). Please verify manually.",
+      "osm_version": 3
+    },
+    "Sepang International Circuit": {
+      "osm_id": 144292569,
+      "osm_type": "way",
+      "wikidata_id": "Q172738",
+      "search_method": "wikidata_tag",
+      "search_name": "Sepang International Circuit",
+      "verified_at": "2026-01-12 16:41",
+      "manual": false,
+      "osm_version": 10
+    },
+    "Shanghai International Circuit": {
+      "osm_id": 2094941,
+      "osm_type": "relation",
+      "wikidata_id": "Q171358",
+      "search_method": "wikidata_tag",
+      "search_name": "Shanghai International Circuit",
+      "verified_at": "2026-01-12 16:41",
+      "manual": false,
+      "osm_version": 5
+    },
+    "Silverstone Circuit": {
+      "osm_id": 51162,
+      "osm_type": "relation",
+      "wikidata_id": "Q171402",
+      "search_method": "wikidata_tag",
+      "search_name": "Silverstone Circuit",
+      "verified_at": "2026-01-12 16:41",
+      "manual": false,
+      "comment": "Also found: relation/2259914 (via 'Silverstone Circuit', Q171402, score=-45). Please verify manually.",
+      "osm_version": 24
+    },
+    "Sochi Autodrom": {
+      "osm_id": 1235494683,
+      "osm_type": "way",
+      "wikidata_id": "Q174004",
+      "search_method": "wikidata_tag",
+      "search_name": "Sochi Autodrom",
+      "verified_at": "2026-01-12 16:42",
+      "manual": false,
+      "osm_version": 7
+    },
+    "Suzuka International Racing Course": {
+      "osm_id": 284570,
+      "osm_type": "relation",
+      "wikidata_id": "Q174170",
+      "search_method": "wikidata_tag",
+      "search_name": "Suzuka International Racing Course",
+      "verified_at": "2026-01-12 16:42",
+      "manual": false,
+      "comment": "Also found: relation/4538846 (via 'Suzuka International Racing Course', Q207311, score=25). Please verify manually.",
+      "osm_version": 12
+    },
+    "TI Circuit Aida": {
+      "osm_id": 856157100,
+      "osm_type": "way",
+      "wikidata_id": "Q173185",
+      "search_method": "wikidata_tag",
+      "search_name": "TI Circuit Aida",
+      "verified_at": "2026-01-12 16:42",
+      "manual": false,
+      "osm_version": 2
+    },
+    "Valencia Street Circuit": {
+      "osm_id": 280461,
+      "osm_type": "relation",
+      "wikidata_id": "Q171406",
+      "search_method": "wikidata_tag",
+      "search_name": "Valencia Street Circuit",
+      "verified_at": "2026-01-12 16:43",
+      "manual": false,
+      "osm_version": 73
+    },
+    "Watkins Glen International": {
+      "osm_id": 702671615,
+      "osm_type": "way",
+      "wikidata_id": "Q171449",
+      "search_method": "wikidata_tag",
+      "search_name": "Watkins Glen International",
+      "verified_at": "2026-01-12 16:43",
+      "manual": false,
+      "osm_version": 3
+    },
+    "Yas Marina Circuit": {
+      "osm_id": 6941673,
+      "osm_type": "relation",
+      "wikidata_id": "Q172869",
+      "search_method": "P402",
+      "search_name": "Yas Marina Circuit",
+      "verified_at": "2026-01-12 16:43",
+      "manual": false,
+      "osm_version": 8
+    },
+    "Zeltweg Airfield": {
+      "osm_id": 81028210,
+      "osm_type": "way",
+      "wikidata_id": "Q172864",
+      "search_method": "wikidata_tag",
+      "search_name": "Zeltweg Airfield",
+      "verified_at": "2026-01-12 16:43",
+      "manual": false,
+      "osm_version": 16
+    }
+  }
+}

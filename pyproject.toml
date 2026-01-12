@@ -1,0 +1,11 @@
+[project]
+name = "F1TrackDownloader"
+version = "1.0.0"
+description = "Download Formula 1 track geometries from OpenStreetMap via Wikidata"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.0.0",
+    "requests>=2.28.0",
+    "lxml>=5.0.0",
+]
